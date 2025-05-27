@@ -1,13 +1,13 @@
-# main.py
+# utils/storage.py
 
-from scraper.fetcher import fetch_watchlist_html
-from scraper.parser import parse_watchlist
+from scraper.scraper import get_all_watchlist_movies
+from utils.storage import save_movies_to_json
 
 if __name__ == "__main__":
-    username = "mgaralc"
-    soup = fetch_watchlist_html(username)
-    movies = parse_watchlist(soup)
 
-    for movie in movies:
+    user = "mgaralc"
+    movies = get_all_watchlist_movies(user)
+    save_movies_to_json(movies, f"{user}_watchlist.json")
+    
+    for movie in movies:        
         print(movie)
-        print("  JSON:", movie.get_json_endpoint())
