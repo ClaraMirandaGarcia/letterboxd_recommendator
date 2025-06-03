@@ -1,0 +1,164 @@
+/* src/styles/step.css */
+
+.genre-card {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre-card:hover {
+  border-color: #4f46e5;
+  transform: scale(1.03);
+}
+
+.genre-card-selected {
+  border-color: #60a5fa;
+  background-color: #111827;
+}
+
+.genre-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.genre-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f9fafb;
+}
+
+/* Layout general */
+
+.step-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.step-content {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.step-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color:white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.step-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #9ca3af;
+}
+
+.step-grid {
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  box-sizing: border-box;
+}
+
+
+/* src/styles/step.css */
+
+.selectable-card {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectable-card:hover {
+  border-color: #4f46e5;
+  transform: scale(1.03);
+}
+
+.selectable-card-selected {
+  border-color: #60a5fa;
+  background-color: #111827;
+}
+
+.selectable-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.selectable-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f9fafb;
+}
+
+/* Formulario */
+.step-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Input */
+.step-input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #333;
+  border-radius: 0.5rem;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.step-input:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+/* Botón */
+.step-button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.step-button:hover {
+  background-color: #3730a3;
+}
+
