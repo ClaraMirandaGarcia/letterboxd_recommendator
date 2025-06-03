@@ -1,7 +1,7 @@
 # utils/storage.py
 
 import json
-from scraper.movie import Movie
+from backend.scraper.movie import Movie
 
 def save_movies_to_json(movies: list[Movie], filename: str):
     with open(filename, 'w', encoding='utf-8') as f:

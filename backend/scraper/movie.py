@@ -1,4 +1,4 @@
-# scraper/movie.py
+# backend/scraper/movie.py
 
 class Movie:
     def __init__(self, title: str, url: str):

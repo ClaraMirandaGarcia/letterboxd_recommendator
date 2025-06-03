@@ -1,6 +1,6 @@
-# scraper/parser.py
+# backend/scraper/parser.py
 
-from scraper.movie import Movie
+from backend.scraper.movie import Movie
 
 def parse_watchlist_page(soup) -> list[Movie]:
     '''

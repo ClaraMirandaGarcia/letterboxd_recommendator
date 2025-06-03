@@ -1,7 +1,7 @@
-# scraper/scraper.py
+# backend/scraper/scraper.py
 
-from scraper.fetcher import fetch_watchlist_page
-from scraper.parser import parse_watchlist_page
+from backend.scraper.fetcher import fetch_watchlist_page
+from backend.scraper.parser import parse_watchlist_page
 from bs4 import BeautifulSoup
 import time
 import random

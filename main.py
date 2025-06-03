@@ -1,7 +1,7 @@
 # utils/storage.py
 
-from scraper.scraper import get_all_watchlist_movies
-from utils.storage import save_movies_to_json
+from backend.scraper.scraper import get_all_watchlist_movies
+from backend.utils.storage import save_movies_to_json
 
 if __name__ == "__main__":
 
